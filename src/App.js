@@ -1,5 +1,11 @@
+import { Cart, Navbar } from './component';
 const App = () => {
-  return <h1>Hello</h1>;
+  return (
+    <main>
+      <Navbar />
+      <Cart />
+    </main>
+  );
 };
 
 export default App;
